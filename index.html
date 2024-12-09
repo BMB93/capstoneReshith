@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu_open" />
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!---The starting point of Header-->
+    <header>
+        <div class="container">
+            <div class="logo item">
+                <img class="img_logo" src="./assets/images/logo.png" alt="logo of reshith">
+            </div>
+            <input type="checkbox" id="menu_open">
+            <label for="menu_open" class="btn_menu"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#ffffff"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></label>
+            <div class="navbar"> 
+                    <li><a href="#">Apropos de nous</a></li>
+                    <li><a href="#">Technique</a></li>
+                    <li><a href="#">Coaching</a></li>
+                    <li><a href="#">Education</a></li>
+            </div>
+        </div>
+    </header><!---End of header -->
+
+    <!---The starting point of the heroes -->
+    <section id="heroes">
+        <div class="grid-container">
+             <div class="motto item">
+                <h2><span>L’innovation</span><br> Technologique dans l’église</h2>
+                <p>L’expertise simplifiée, pour vous!</p>
+            </div>
+            <div class="gadget item">
+                <img src="./assets/images/phone vector.png" alt="phone vector image" class="img_heroes">
+            </div>
+            <div class="btn_CTA item">
+                    <a href="#service">Choisir votre service</a> 
+            </div>
+        </div>
+    </section> <!--- End of heroes -->
+
+    <!---The starting point of the presentation -->
+    <section id="presentation">
+        <div class="container_presentation">
+            <div class="story">
+                <h3>Une revolution TMI</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </p>
+            </div>
+            
+                <div class="CEO">
+                    <img src="./assets/images/Marc R.png" alt="profil of CEO" class="img_ceo">
+                </div>
+                <div class="CTO">
+                    <img src="./assets/images/Marc B.png" alt="profil of CTO" class="img_cto">
+                </div>
+           
+                
+            </div>    
+        </div>
+    </section> <!---End of presentation -->
+
+    <!---The starting point of the features -->
+    <section id="features">
+        <div class="container_features">
+            <div class="item_features">
+                <div class="icon_features">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 -960 960 960" width="54px" fill="#fff"><path d="M42-120v-112q0-33 17-62t47-44q51-26 115-44t141-18q77 0 141 18t115 44q30 15 47 44t17 62v112H42Zm80-80h480v-32q0-11-5.5-20T582-266q-36-18-92.5-36T362-320q-71 
+                        0-127.5 18T142-266q-9 5-14.5 14t-5.5 20v32Zm240-240q-66 0-113-47t-47-113h-10q-9 0-14.5-5.5T172-620q0-9 5.5-14.5T192-640h10q0-45 22-81t58-57v38q0 9 5.5 14.5T302-720q9 0 14.5-5.5T322-740v-54q9-3 19-4.5t21-1.5q11 0 21 1.5t19 4.5v54q0 9 5.5 14.5T422-720q9 0 
+                        14.5-5.5T442-740v-38q36 21 58 57t22 81h10q9 0 14.5 5.5T552-620q0 9-5.5 14.5T532-600h-10q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T442-600H282q0 33 23.5 56.5T362-520Zm300 160-6-30q-6-2-11.5-4.5T634-402l-28 10-20-36 22-20v-24l-22-20 20-36 28 10q4-4 10-7t12-5l6-30h40l6 
+                        30q6 2 12 5t10 7l28-10 20 36-22 20v24l22 20-20 36-28-10q-5 5-10.5 7.5T708-390l-6 30h-40Zm20-70q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Zm72-130-8-42q-9-3-16.5-7.5T716-620l-42 14-28-48 34-30q-2-5-2-8v-16q0-3 2-8l-34-30 28-48 42 14q6-6 13.5-10.5T746-798l8-42h56l8 
+                        42q9 3 16.5 7.5T848-780l42-14 28 48-34 30q2 5 2 8v16q0 3-2 8l34 30-28 48-42-14q-6 6-13.5 10.5T818-602l-8 42h-56Zm28-90q21 0 35.5-14.5T832-700q0-21-14.5-35.5T782-750q-21 0-35.5 14.5T732-700q0 21 14.5 35.5T782-650ZM362-200Z"/></svg>
+                </div>
+                <h3>Technique</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <button class="btn_features">
+                        > Voir plus...
+                    </button>
+            </div> <!-- end of features-->
+
+            <div class="item_features">
+                <div class="icon_features">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 -960 960 960" width="54px" fill="#fff"><path d="M440-120v-80h320v-284q0-117-81.5-198.5T480-764q-117 
+                        0-198.5 81.5T200-484v244h-40q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 
+                        797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v49q0 33-23.5 56.5T760-120H440Zm-80-280q-17 0-28.5-11.5T320-440q0-17 11.5-28.5T360-480q17 0 
+                        28.5 11.5T400-440q0 17-11.5 28.5T360-400Zm240 0q-17 0-28.5-11.5T560-440q0-17 11.5-28.5T600-480q17 0 28.5 11.5T640-440q0 17-11.5 28.5T600-400Zm-359-62q-7-106 64-182t177-76q89 0 156.5 56.5T720-519q-91-1-167.5-49T435-698q-16 80-67.5 142.5T241-462Z"/></svg>
+                </div>
+                <h3>Coaching</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <button class="btn_features">
+                        > Voir plus...
+                    </button>
+            </div> <!-- end of features-->
+
+            <div class="item_features">
+                <div class="icon_features">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 -960 960 960" width="54px" fill="#fff"><path d="M480-120 200-272v-240L40-600l440-240 440 
+                        240v320h-80v-276l-80 44v240L480-120Zm0-332 274-148-274-148-274 148 274 148Zm0 241 200-108v-151L480-360 280-470v151l200 108Zm0-241Zm0 90Zm0 0Z"/></svg>
+                </div>
+                <h3>Educatif</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <button class="btn_features">
+                        > Voir plus...
+                    </button>
+            </div> <!-- end of features-->
+
+        </div>
+
+    </section> <!---End of features section -->
+
+    <!---The starting point of the pub/CTA -->
+    <section id="CTA">
+        <div class="CTA">
+            <h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s <span>ReshitH</span>
+            </h3>
+        </div>
+    </section> <!---End of CTA -->
+
+    <!---The starting point of the footer -->
+    <footer>
+        <div class="container_footer">
+            <div class="logo item">
+                <img class="img_logo" src="./assets/images/logo.png" alt="logo of reshith">
+            </div>
+            <div class="pages">
+                <h3>Nos pages</h3>
+                <li><a href="#">> Apropos de nous</a></li>
+                <li><a href="#">> Technique</a></li>
+                <li><a href="#">> Coaching</a></li>
+                <li><a href="#">> Education</a></li>
+            </div>
+            <div class="connect">
+                <h3>Restons connecter</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#28a4ff" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#28a4ff" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#28a4ff" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#28a4ff" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                  </svg>
+            </div>
+        </div>
+        <small>©Copyright  - ReshitHub - Tous droits réservés</small>
+    </footer>  <!---The End of footer -->
+</body>
+</html>
